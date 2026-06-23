@@ -19,6 +19,14 @@ An advanced AI platform designed to promote legal awareness and democratize acce
 * **Local Inference**: Ollama (`llama3.2:1b`)
 * **Speech-to-Text**: Whisper
 
+### Core Python Libraries Used
+- `fastapi` & `uvicorn`: For the backend REST API web server.
+- `langchain`, `langchain-community`, `langchain-chroma`: For orchestrating the complex RAG logic.
+- `chromadb`: The local vector database for storing legal document embeddings.
+- `sentence-transformers`: For generating vector embeddings using HuggingFace models.
+- `ollama`: The Python client to communicate with the local Llama 3.2 model.
+- `faster-whisper`: A highly optimized CTranslate2 implementation of Whisper for fast local speech-to-text.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
